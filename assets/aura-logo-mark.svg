@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <title>AURA · Icon Mark</title>
+  <defs>
+    <style>
+      .ring { fill: none; stroke: #B8924E; stroke-width: 1.4; }
+      .a    { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 500;
+              fill: #4A5240; }
+      .leaf { fill: #7A8567; }
+      .stem { fill: none; stroke: #7A8567; stroke-width: 1.2; stroke-linecap: round; }
+      .dot  { fill: #B8924E; }
+    </style>
+  </defs>
+
+  <circle cx="150" cy="150" r="140" fill="#FAF5E8"/>
+  <circle class="ring" cx="150" cy="150" r="140"/>
+  <circle class="ring" cx="150" cy="150" r="128" stroke-width="0.7"/>
+
+  <!-- Leaflet crown -->
+  <g transform="translate(150,60)">
+    <path class="leaf" d="M-14,0 C-10,-10 -4,-14 0,-18 C4,-14 10,-10 14,0 C8,2 4,2 0,2 C-4,2 -8,2 -14,0 Z" transform="translate(-10,8) rotate(-30) scale(0.9)"/>
+    <path class="leaf" d="M-14,0 C-10,-10 -4,-14 0,-18 C4,-14 10,-10 14,0 C8,2 4,2 0,2 C-4,2 -8,2 -14,0 Z" transform="translate(10,8)  rotate(30)  scale(0.9)"/>
+    <circle class="dot" cx="0" cy="20" r="2.2"/>
+  </g>
+
+  <!-- Big A monogram -->
+  <text class="a" x="150" y="195" text-anchor="middle" font-size="160">A</text>
+
+  <!-- Bottom divider + dot -->
+  <line class="ring" x1="70" y1="222" x2="142" y2="222" stroke-width="0.8"/>
+  <circle class="dot" cx="150" cy="222" r="2.2"/>
+  <line class="ring" x1="158" y1="222" x2="230" y2="222" stroke-width="0.8"/>
+</svg>
